@@ -42,3 +42,19 @@ Os programas Anaconda e Java JDK possuem instaladores próprios.
 O Spark e o Hadoop devem ser descompactados nos diretórios, C:\Spark e C:\Hadoop respectivamente
 A versão do Java que funciona com Spark é a 11.
 ```
+
+### Codificando no PyCharm
+Crie um projeto no PYCharm e inclua o código abaixo:
+```
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("DataFrame").getOrCreate()
+
+df = spark.read.text("dados.txt")
+
+df.selectExpr("split(value, ';') as\
+Text_Data_In_Rows_Using_Text").show(4, False)
+```
+Feito isso, o PyCharm irá sublinhar o pacote pycharm.sql solicitando a instalação<br>
+Clique sob este pacote e clique em instalar.
+Feito isso, será possível usar o pyspark sem problemas.
