@@ -6,7 +6,7 @@ Guia para instalação do Pyspark no Windows 10
 --- Aula 01 - Conceitos Básicos de PySpark
 https://www.youtube.com/watch?v=WpIDLm9ow2o    
 
---- Aula 02 - Baixa dos softwares Apache SPARK, Anaconda e Java(JDK)
+--- Aula 02 - Download dos softwares Apache SPARK, Anaconda e Java(JDK)
 https://www.youtube.com/watch?v=qtEZXXrGkFk    
   
 --- Aula 03 - Instalar os softwares Java JDK, Anaconda, Pyspark
