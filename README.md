@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=xKOSnC2pICo
 ```
 
 ### Instalações adicionais:
-Os arquivos winutils.exe e winutils.pdb não foram baixados com a Hadoop
+Os arquivos winutils.exe e winutils.pdb não foram baixados com a Hadoop<br>
 Neste caso, foi necessário baixar os arquivos a parte
 
 ```
